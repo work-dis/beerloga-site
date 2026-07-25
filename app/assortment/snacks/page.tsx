@@ -15,7 +15,7 @@ export default function SnacksPage() {
       <PageIntro
         eyebrow="Снеки и закуски"
         title="Снеки, сыры и прочее"
-        description="Демонстрационный ассортимент и наличие в выбранном магазине."
+        description="Актуальный ассортимент и наличие в выбранном магазине по данным CloudShop."
       />
       <section className="section section--catalog">
         <CatalogClient products={snackProducts} allowCategory />

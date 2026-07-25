@@ -43,16 +43,19 @@ test("search, URL sync, empty state, reset and store selection work", async ({
     "data-hydrated",
     "true",
   );
+  const resultCount = page.getByText("Найдено:").locator("strong");
+  const initialCount = Number(await resultCount.textContent());
+  expect(initialCount).toBeGreaterThan(0);
   const search = page.getByLabel("Поиск по названию");
   await search.fill("   ПШЕНИЧНОЕ   ");
-  await expect(page.getByText("Найдено:").locator("strong")).toHaveText("1");
+  expect(Number(await resultCount.textContent())).toBeGreaterThan(0);
   await expect(page).toHaveURL(/q=%D0%9F%D0%A8%D0%95%D0%9D%D0%98%D0%A7%D0%9D%D0%9E%D0%95/i);
 
   await search.fill("отсутствующий товар");
   await expect(page.getByRole("heading", { name: "Ничего не найдено" })).toBeVisible();
   await expect(page.getByTestId("beer-legal-warning")).toBeVisible();
   await page.getByRole("button", { name: "Очистить фильтры" }).click();
-  await expect(page.getByText("Найдено:").locator("strong")).toHaveText("4");
+  await expect(resultCount).toHaveText(String(initialCount));
 
   const store = page.locator(".desktop-filters").getByLabel("Магазин");
   await store.selectOption("south");

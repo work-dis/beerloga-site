@@ -15,7 +15,7 @@ export default function NonAlcoholicPage() {
       <PageIntro
         eyebrow="Безалкогольное"
         title="Безалкогольные напитки"
-        description="Демонстрационный ассортимент и наличие в выбранном магазине."
+        description="Актуальный ассортимент и наличие в выбранном магазине по данным CloudShop."
       />
       <section className="section section--catalog">
         <CatalogClient products={nonAlcoholicProducts} />

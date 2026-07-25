@@ -17,7 +17,7 @@ export default function AssortmentPage() {
         <PageIntro
           eyebrow="Каталог без онлайн-заказа"
           title="Ассортимент напитков и закусок"
-          description="Поиск по демонстрационному ассортименту, ценам и наличию в выбранном физическом магазине."
+          description="Актуальный ассортимент, цены и наличие в выбранном физическом магазине по данным CloudShop."
         />
       </div>
       <CategoryNavigation />

@@ -9,6 +9,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "sync:catalog": "node scripts/sync-cloudshop.mjs",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "test:e2e": "playwright test",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
