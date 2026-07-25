@@ -1,0 +1,262 @@
+{
+  ".openai/hosting.json": {
+    "mtime": 1785013801.1431203,
+    "ast_hash": "0c0e50dd4ba5ca1697360d9e78b65fd0",
+    "semantic_hash": ""
+  },
+  "app/about/page.tsx": {
+    "mtime": 1785014394.895816,
+    "ast_hash": "09c8968baa6de4234d2cc6d998b3d123",
+    "semantic_hash": ""
+  },
+  "app/assortment/beer/page.tsx": {
+    "mtime": 1785014394.8952532,
+    "ast_hash": "ca0eed21fd54c2399076f6cfa92330f6",
+    "semantic_hash": ""
+  },
+  "app/assortment/non-alcoholic/page.tsx": {
+    "mtime": 1785014394.8953834,
+    "ast_hash": "e600fb82bb10c279936082fa6294d46e",
+    "semantic_hash": ""
+  },
+  "app/assortment/page.tsx": {
+    "mtime": 1785014394.8951366,
+    "ast_hash": "037cee8947283097d18d554604321284",
+    "semantic_hash": ""
+  },
+  "app/assortment/snacks/page.tsx": {
+    "mtime": 1785014394.8955636,
+    "ast_hash": "44d3682f2fa5287b3fd27a225acd85e4",
+    "semantic_hash": ""
+  },
+  "app/chatgpt-auth.ts": {
+    "mtime": 1785013801.135119,
+    "ast_hash": "b0390adcbf1902d7757336a619de1e2d",
+    "semantic_hash": ""
+  },
+  "app/contacts/page.tsx": {
+    "mtime": 1785014394.8959453,
+    "ast_hash": "7e0c04fcebaa2d2b1fc4cb541bbac405",
+    "semantic_hash": ""
+  },
+  "app/layout.tsx": {
+    "mtime": 1785014394.8948953,
+    "ast_hash": "cfdf264d168cebbb058d0bd7f1b5f7e0",
+    "semantic_hash": ""
+  },
+  "app/not-found.tsx": {
+    "mtime": 1785014394.8963897,
+    "ast_hash": "6453adda036a91dc7607403b113ca078",
+    "semantic_hash": ""
+  },
+  "app/page.tsx": {
+    "mtime": 1785015364.6196027,
+    "ast_hash": "99a61db0e8239027c94d6c9960dd9237",
+    "semantic_hash": ""
+  },
+  "app/privacy/page.tsx": {
+    "mtime": 1785014394.8960528,
+    "ast_hash": "f50993297fcf768841f3046ad3c06d0c",
+    "semantic_hash": ""
+  },
+  "app/robots.ts": {
+    "mtime": 1785014394.8961735,
+    "ast_hash": "78cd88c2a100bd87fb76f020cf909e5f",
+    "semantic_hash": ""
+  },
+  "app/sitemap.ts": {
+    "mtime": 1785014394.8962955,
+    "ast_hash": "0d59c86fc82cbfc70f11371b4fee3022",
+    "semantic_hash": ""
+  },
+  "app/stores/page.tsx": {
+    "mtime": 1785014394.8956995,
+    "ast_hash": "cb4e8687bf1bb351458cc59d7a75d3ab",
+    "semantic_hash": ""
+  },
+  "db/index.ts": {
+    "mtime": 1785013801.1424687,
+    "ast_hash": "870d3083bb3a54c1d0bdcbbe4ceec8d6",
+    "semantic_hash": ""
+  },
+  "db/schema.ts": {
+    "mtime": 1785013801.1422522,
+    "ast_hash": "9e64884b5e074032507b150d0ddb7b80",
+    "semantic_hash": ""
+  },
+  "drizzle.config.ts": {
+    "mtime": 1785013801.1437309,
+    "ast_hash": "a4048d3140637afcadca6526760827fb",
+    "semantic_hash": ""
+  },
+  "drizzle/meta/_journal.json": {
+    "mtime": 1785013801.1462846,
+    "ast_hash": "7fab78f5673f3280927620b2747024ff",
+    "semantic_hash": ""
+  },
+  "eslint.config.mjs": {
+    "mtime": 1785013801.144688,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": ""
+  },
+  "examples/d1/app/api/notes/route.ts": {
+    "mtime": 1785013801.1413567,
+    "ast_hash": "53b3a9412f9a63240c469a3534aa1150",
+    "semantic_hash": ""
+  },
+  "examples/d1/db/schema.ts": {
+    "mtime": 1785013801.141756,
+    "ast_hash": "0c59b17771e02fc72bd1139ef6abd670",
+    "semantic_hash": ""
+  },
+  "next.config.ts": {
+    "mtime": 1785013801.144926,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1785015534.2548559,
+    "ast_hash": "2a0f3f8542d6ccaf6d24b028a038cf7e",
+    "semantic_hash": ""
+  },
+  "playwright.config.ts": {
+    "mtime": 1785015112.890422,
+    "ast_hash": "d318ee1a94ceeddbb6092ae9b6ea97a0",
+    "semantic_hash": ""
+  },
+  "postcss.config.mjs": {
+    "mtime": 1785013801.1373594,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": ""
+  },
+  "src/components/BeerLegal.tsx": {
+    "mtime": 1785014300.648557,
+    "ast_hash": "d473a88ba099a4be9f1e53117d079d13",
+    "semantic_hash": ""
+  },
+  "src/components/CatalogClient.tsx": {
+    "mtime": 1785015040.2999794,
+    "ast_hash": "ac5f81e08814ab6eb7859ba92af8aac9",
+    "semantic_hash": ""
+  },
+  "src/components/CategoryNavigation.tsx": {
+    "mtime": 1785014300.647852,
+    "ast_hash": "e88bb5c7876ccbaf626c97de6c901060",
+    "semantic_hash": ""
+  },
+  "src/components/Logo.tsx": {
+    "mtime": 1785014300.6476011,
+    "ast_hash": "5f8346bf3e1a217a860cd3f3f1a05dc7",
+    "semantic_hash": ""
+  },
+  "src/components/PageIntro.tsx": {
+    "mtime": 1785014300.6488042,
+    "ast_hash": "b331a878f0b1cc4abbdd51c1b2178e61",
+    "semantic_hash": ""
+  },
+  "src/components/ProductCards.tsx": {
+    "mtime": 1785014300.648417,
+    "ast_hash": "32c2486c526503755111f79fe226c64e",
+    "semantic_hash": ""
+  },
+  "src/components/SiteChrome.tsx": {
+    "mtime": 1785014783.6968553,
+    "ast_hash": "d1425ca1b7df82ce94cb6c80de8175ea",
+    "semantic_hash": ""
+  },
+  "src/components/StoreCards.tsx": {
+    "mtime": 1785015364.617146,
+    "ast_hash": "5c918b3be6e9d993fb467f4f48ed3f19",
+    "semantic_hash": ""
+  },
+  "src/data/products.ts": {
+    "mtime": 1785014300.6470468,
+    "ast_hash": "c3e048605cb30a95063c553ff2be5bb2",
+    "semantic_hash": ""
+  },
+  "src/data/stores.ts": {
+    "mtime": 1785015364.6068425,
+    "ast_hash": "e0024a0b401258b0110eba7f1ca701ee",
+    "semantic_hash": ""
+  },
+  "src/data/types.ts": {
+    "mtime": 1785014300.6462476,
+    "ast_hash": "6c92f89839a93b3d18bbe96c899b2b00",
+    "semantic_hash": ""
+  },
+  "src/lib/metadata.ts": {
+    "mtime": 1785014300.6474144,
+    "ast_hash": "ffff0489ecef10555e76eefacc5187b0",
+    "semantic_hash": ""
+  },
+  "test-results/.last-run.json": {
+    "mtime": 1785015583.8097727,
+    "ast_hash": "f196824657d8858bc7fa44eecbba38b1",
+    "semantic_hash": ""
+  },
+  "tests/e2e/site.spec.ts": {
+    "mtime": 1785015139.319572,
+    "ast_hash": "fc6917690367b61a9b10b455dbc68ec0",
+    "semantic_hash": ""
+  },
+  "tests/rendered-html.test.mjs": {
+    "mtime": 1785014783.6982665,
+    "ast_hash": "505a5c295f67a4b62efcf36d818db04c",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1785013801.1427,
+    "ast_hash": "02fc19ad21338c2ab820a70136310db4",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1785015178.421902,
+    "ast_hash": "c5f99a69ae32a927e2f779fbbaba3887",
+    "semantic_hash": ""
+  },
+  "worker/index.ts": {
+    "mtime": 1785013801.1443386,
+    "ast_hash": "548cbbd26846af26d1b4b503b353f123",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1785015551.41711,
+    "ast_hash": "5600f453dd23e06f297fc441f46d04aa",
+    "semantic_hash": ""
+  },
+  "design-system/beerloga/MASTER.md": {
+    "mtime": 1785014020.2943187,
+    "ast_hash": "22786e8e6b1c550cc5b3b7b0ba1aa385",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1785015448.0666564,
+    "ast_hash": "a0e804063e9f825efb131febf9546435",
+    "semantic_hash": ""
+  },
+  "public/file.svg": {
+    "mtime": 1785013801.1384096,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "public/globe.svg": {
+    "mtime": 1785013801.1386838,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "public/images/store-interior.webp": {
+    "mtime": 1785015355.9224608,
+    "ast_hash": "4d717b14931a83249ca8f7018cd1905f",
+    "semantic_hash": ""
+  },
+  "public/og.png": {
+    "mtime": 1785015335.82691,
+    "ast_hash": "7a9f4e3d3bf8bd1f657a45288da75f86",
+    "semantic_hash": ""
+  },
+  "public/window.svg": {
+    "mtime": 1785013801.1389124,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  }
+}
