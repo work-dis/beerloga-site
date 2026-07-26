@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
-import test from "node:test";
+import { spawn } from "node:child_process";
+import net from "node:net";
+import { after, before, test } from "node:test";
 
 const routes = [
   "/",
@@ -13,31 +15,66 @@ const routes = [
   "/privacy",
 ];
 
-async function getWorker() {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  return (await import(workerUrl.href)).default;
+let server;
+let baseUrl;
+let serverOutput = "";
+
+async function getAvailablePort() {
+  return new Promise((resolve, reject) => {
+    const socket = net.createServer();
+    socket.unref();
+    socket.once("error", reject);
+    socket.listen(0, "127.0.0.1", () => {
+      const address = socket.address();
+      socket.close(() => resolve(address.port));
+    });
+  });
 }
 
-async function render(worker, path) {
-  return worker.fetch(
-    new Request(`http://localhost${path}`, {
-      headers: { accept: "text/html" },
-    }),
-    {
-      ASSETS: {
-        fetch: async () => new Response("Not found", { status: 404 }),
-      },
-    },
-    { waitUntil() {}, passThroughOnException() {} },
-  );
+async function render(path) {
+  return fetch(`${baseUrl}${path}`, {
+    headers: { accept: "text/html" },
+  });
 }
+
+before(async () => {
+  const port = await getAvailablePort();
+  baseUrl = `http://127.0.0.1:${port}`;
+  server = spawn(process.execPath, ["node_modules/next/dist/bin/next", "start", "-H", "127.0.0.1", "-p", String(port)], {
+    cwd: new URL("..", import.meta.url),
+    env: { ...process.env, NODE_ENV: "production" },
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+  server.stdout.on("data", (chunk) => {
+    serverOutput += chunk;
+  });
+  server.stderr.on("data", (chunk) => {
+    serverOutput += chunk;
+  });
+
+  for (let attempt = 0; attempt < 100; attempt += 1) {
+    if (server.exitCode !== null) {
+      throw new Error(`Next.js server exited early:\n${serverOutput}`);
+    }
+    try {
+      const response = await fetch(baseUrl);
+      if (response.ok) return;
+    } catch {}
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  throw new Error(`Next.js server did not become ready:\n${serverOutput}`);
+});
+
+after(async () => {
+  if (!server || server.exitCode !== null) return;
+  server.kill("SIGTERM");
+  await new Promise((resolve) => server.once("exit", resolve));
+});
 
 test("all required pages render with one H1 and unique metadata", async () => {
-  const worker = await getWorker();
   const titles = new Set();
   for (const route of routes) {
-    const response = await render(worker, route);
+    const response = await render(route);
     assert.equal(response.status, 200, route);
     const html = await response.text();
     assert.match(html, /<html[^>]+lang="ru"/i, route);
@@ -52,8 +89,7 @@ test("all required pages render with one H1 and unique metadata", async () => {
 });
 
 test("beer page contains persistent legal warning and no sales CTA", async () => {
-  const worker = await getWorker();
-  const response = await render(worker, "/assortment/beer");
+  const response = await render("/assortment/beer");
   const html = await response.text();
   assert.match(html, /data-testid="beer-advertising-section"/);
   assert.match(html, /data-testid="beer-legal-warning"/);
@@ -64,20 +100,18 @@ test("beer page contains persistent legal warning and no sales CTA", async () =>
 });
 
 test("site exposes no cart or checkout routes and internal routes are healthy", async () => {
-  const worker = await getWorker();
   for (const forbidden of ["/cart", "/checkout"]) {
-    const response = await render(worker, forbidden);
+    const response = await render(forbidden);
     assert.equal(response.status, 404, forbidden);
   }
   for (const route of routes) {
-    const response = await render(worker, route);
+    const response = await render(route);
     assert.equal(response.status, 200, route);
   }
 });
 
 test("stores page uses only permitted structured data types", async () => {
-  const worker = await getWorker();
-  const response = await render(worker, "/stores");
+  const response = await render("/stores");
   const html = await response.text();
   assert.match(html, /LocalBusiness/);
   assert.match(html, /PostalAddress/);

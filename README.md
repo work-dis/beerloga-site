@@ -18,7 +18,7 @@
 - `next/font`, `next/image`, Lucide;
 - Vitest не используется: серверные проверки выполняются Node Test Runner;
 - Playwright проверяет поведение и размеры на реальных браузерных движках;
-- vinext/Vite формирует Cloudflare Workers-совместимую production-сборку.
+- production-сборка выполняется стандартным `next build` для Vercel.
 
 ## Установка и запуск
 
