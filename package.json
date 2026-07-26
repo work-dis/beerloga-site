@@ -10,6 +10,7 @@
     "build": "vite build",
     "start": "next start",
     "sync:catalog": "node scripts/sync-cloudshop.mjs",
+    "sync:images": "node scripts/sync-product-images.mjs && npm run sync:catalog",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "test:e2e": "playwright test",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
@@ -20,7 +21,8 @@
     "lucide-react": "^1.27.0",
     "next": "^16.2.12",
     "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react-dom": "19.2.6",
+    "sharp": "0.35.3"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",

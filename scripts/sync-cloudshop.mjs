@@ -162,6 +162,11 @@ const stockIds = configuredStockIds.length
 const storeIds = ["center", "east", "south"];
 
 const syncedAt = new Date().toISOString().slice(0, 10);
+const imageManifestPath = path.join(root, "src", "data", "product-images.json");
+const imageManifest = fs.existsSync(imageManifestPath)
+  ? JSON.parse(fs.readFileSync(imageManifestPath, "utf8")).images ?? {}
+  : {};
+
 const products = sourceProducts
   .filter((item) => {
     const name = String(item.options?.name ?? "").trim();
@@ -181,6 +186,15 @@ const products = sourceProducts
       .slice(0, 10);
     const volume = extractVolume(name, category, item.stock);
     const price = Number(item.price);
+    const barcode = String(item.barcode ?? "").replace(/\D/g, "");
+    const normalizedBarcode =
+      barcode.replace(/^0+/, "").length >= 9 &&
+      barcode.replace(/^0+/, "").length <= 12
+        ? barcode.replace(/^0+/, "").padStart(13, "0")
+        : barcode.replace(/^0+/, "").length <= 7
+          ? barcode.replace(/^0+/, "").padStart(8, "0")
+          : barcode.replace(/^0+/, "");
+    const image = imageManifest[normalizedBarcode];
 
     return {
       id: String(item.id),
@@ -189,6 +203,7 @@ const products = sourceProducts
       category,
       ...(volume ? { volume } : {}),
       ...(Number.isFinite(price) && price > 0 ? { price } : {}),
+      ...(image ? { image } : {}),
       currency: "BYN",
       storeAvailability,
       updatedAt,

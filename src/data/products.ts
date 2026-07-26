@@ -1,6 +1,6 @@
 import type { Product } from "./types";
 
-// Generated from CloudShop on 2026-07-25. Do not edit manually.
+// Generated from CloudShop on 2026-07-26. Do not edit manually.
 export const products: Product[] = [
   {
     "id": "687f7677285d44495556ae55",
@@ -400,7 +400,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "67c95e7d2d222937d02ea7fe",
@@ -415,7 +415,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68f240f2180ab15e322bf9a6",
@@ -430,7 +430,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a3e6da7f3defc173b7c19b1",
@@ -520,7 +520,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "64d11fc3b3b80e0ad8380a27",
@@ -789,7 +789,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "69f9fa177b56884951322137",
@@ -804,7 +804,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68ef8f445a2ff87605115401",
@@ -819,7 +819,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680cf5f03ae9853d340a0ca1",
@@ -1073,7 +1073,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "687f783b3a838c2e265c4b34",
@@ -1563,7 +1563,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680ceb1b9e032156af36e377",
@@ -1608,7 +1608,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a03191133d5f65b5b404011",
@@ -1695,7 +1695,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66bcf0e2fbd05155f4305042",
@@ -1770,7 +1770,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680d02b659cdee5082760ed7",
@@ -1830,7 +1830,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-24"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "687f6f6d1b407819f05cc9fc",
@@ -2054,7 +2054,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "687f7185a1b07f62d76bc3ab",
@@ -2114,7 +2114,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "683865162c5c06356c100b55",
@@ -2210,6 +2210,7 @@ export const products: Product[] = [
     "name": "БОНАКВА ЛИМОН 0,5",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/90490620.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -2225,13 +2226,14 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1,5 л",
     "price": 1,
+    "image": "/images/products/5449000045478.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66364524972a573b4679cde2",
@@ -2240,6 +2242,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 1,
+    "image": "/images/products/5449000026583.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2261,7 +2264,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-15"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "675198a9e618f2743a22a401",
@@ -2270,6 +2273,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1,5 л",
     "price": 1,
+    "image": "/images/products/5449000085702.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2284,6 +2288,7 @@ export const products: Product[] = [
     "name": "БОНАКВА СРЕДНЕГАЗ. 1 л.",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/5449000003041.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2299,6 +2304,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "45 г",
     "price": 2,
+    "image": "/images/products/4607010743055.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2343,6 +2349,7 @@ export const products: Product[] = [
     "name": "Вафли яшкинские в шоколадной глазури \"Яшкино\", 200 г.",
     "category": "non-alcoholic",
     "price": 5,
+    "image": "/images/products/4607015232868.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2358,13 +2365,14 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "0,5 л",
     "price": 1,
+    "image": "/images/products/40822426.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66364524972a573b4679cde3",
@@ -2373,13 +2381,14 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 1,
+    "image": "/images/products/5449000005489.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-24"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68064063de401c40375c23fb",
@@ -2388,13 +2397,14 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "0,5 л",
     "price": 1,
+    "image": "/images/products/90492983.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "670d4c2dfa98f3265f45b29d",
@@ -2518,6 +2528,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "38 г",
     "price": 3,
+    "image": "/images/products/46040145.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2531,7 +2542,6 @@ export const products: Product[] = [
     "slug": "квас-бочковой-гродненская-1623161a",
     "name": "КВАС БОЧКОВОЙ ГРОДНЕНСКАЯ",
     "category": "non-alcoholic",
-    "volume": "1 кг",
     "price": 2,
     "currency": "BYN",
     "storeAvailability": {
@@ -2539,7 +2549,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680d0f2d0a0aec49597069c7",
@@ -2569,7 +2579,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68f23e365a02c5371b2a033a",
@@ -2649,6 +2659,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1,5 л",
     "price": 4,
+    "image": "/images/products/5449000133335.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -2663,6 +2674,7 @@ export const products: Product[] = [
     "name": "КОКА КОЛА БЕЗ САХАРА Ж\\Б 0.33",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/5449000131805.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2692,6 +2704,7 @@ export const products: Product[] = [
     "name": "КОКА-КОЛА 0,33",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/5449000000996.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2949,6 +2962,7 @@ export const products: Product[] = [
     "name": "Напиток \"Любимый\" сокосодержащий из яблока,черноплодной рябины, клубники и земляники \"Земляничное лето\"1Л",
     "category": "non-alcoholic",
     "price": 3,
+    "image": "/images/products/4601512006724.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -2963,6 +2977,7 @@ export const products: Product[] = [
     "name": "Напиток Агуша сокосодержащ.из яблока 0.3л п/б",
     "category": "non-alcoholic",
     "price": 2,
+    "image": "/images/products/4690228030925.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2977,6 +2992,7 @@ export const products: Product[] = [
     "name": "Напиток безалкогольный сильногазированный \"Спрайт\" 0,5",
     "category": "non-alcoholic",
     "price": 2,
+    "image": "/images/products/54491069.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -2991,6 +3007,7 @@ export const products: Product[] = [
     "name": "Напиток КОКА КОЛА 1.5л пэт",
     "category": "non-alcoholic",
     "price": 4,
+    "image": "/images/products/5449000000439.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3005,13 +3022,14 @@ export const products: Product[] = [
     "name": "Напиток КОКА КОЛА 1л пэт",
     "category": "non-alcoholic",
     "price": 3,
+    "image": "/images/products/5449000054227.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66b4d765e07f07555c1d8ec8",
@@ -3019,6 +3037,7 @@ export const products: Product[] = [
     "name": "Напиток Кока-Кола 0,5л ZERO",
     "category": "non-alcoholic",
     "price": 2,
+    "image": "/images/products/5449000131836.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3034,6 +3053,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 3,
+    "image": "/images/products/5449000133328.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3048,6 +3068,7 @@ export const products: Product[] = [
     "name": "Напиток Липтон чай Черн/Персик 0,5",
     "category": "non-alcoholic",
     "price": 2,
+    "image": "/images/products/4600494600524.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3063,6 +3084,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1,5 л",
     "price": 4,
+    "image": "/images/products/5449000012203.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3077,6 +3099,7 @@ export const products: Product[] = [
     "name": "Напиток coca-cola безалкогольн газ 0.5л пэт",
     "category": "non-alcoholic",
     "price": 2,
+    "image": "/images/products/54491472.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3091,6 +3114,7 @@ export const products: Product[] = [
     "name": "Напиток coca-cola ван.газ.пэт0.5л",
     "category": "non-alcoholic",
     "price": 2,
+    "image": "/images/products/42099697.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3106,6 +3130,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 4,
+    "image": "/images/products/4600494600500.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3134,6 +3159,7 @@ export const products: Product[] = [
     "name": "НЕКТАР ДОБРЫЙ АПЕЛЬСИН",
     "category": "non-alcoholic",
     "price": 3,
+    "image": "/images/products/4810450002570.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3250,6 +3276,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 4,
+    "image": "/images/products/4810451000193.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3323,6 +3350,7 @@ export const products: Product[] = [
     "name": "сок любимый 0.2л тропический микс",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/4601201056504.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3337,6 +3365,7 @@ export const products: Product[] = [
     "name": "сок любимый 0.2л яблоко",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/4600494663246.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3352,6 +3381,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "0,95 л",
     "price": 3,
+    "image": "/images/products/4601512009435.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3367,6 +3397,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "0,33 л",
     "price": 1,
+    "image": "/images/products/5449000014535.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3382,6 +3413,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 3,
+    "image": "/images/products/5449000050939.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3410,6 +3442,7 @@ export const products: Product[] = [
     "slug": "сухарики-соленые-кириешки-max-со-вкусом-охотничьих-колбасок-950fb1c4",
     "name": "Сухарики соленые \"Кириешки MAX\" со вкусом охотничьих колбасок",
     "category": "non-alcoholic",
+    "image": "/images/products/4607010748616.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3425,6 +3458,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "200 г",
     "price": 4,
+    "image": "/images/products/4810268033261.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3440,6 +3474,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "100 г",
     "price": 2,
+    "image": "/images/products/4870254130770.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3484,6 +3519,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "1 л",
     "price": 4,
+    "image": "/images/products/4600494600531.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3504,7 +3540,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a625dcab9fc0870d71a74c1",
@@ -3540,6 +3576,7 @@ export const products: Product[] = [
     "name": "Чистая питьевая вода Bonaqua сильногазированная 0,5 л.",
     "category": "non-alcoholic",
     "price": 1,
+    "image": "/images/products/90494406.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3554,6 +3591,7 @@ export const products: Product[] = [
     "name": "ШВЕПС 1Л ПИНА КОЛАДА",
     "category": "non-alcoholic",
     "price": 3,
+    "image": "/images/products/5449000291523.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3584,6 +3622,7 @@ export const products: Product[] = [
     "category": "non-alcoholic",
     "volume": "45 г",
     "price": 2,
+    "image": "/images/products/4690329014077.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3612,6 +3651,7 @@ export const products: Product[] = [
     "name": "ЭНЕРГЕТИК ДИНАМИТ ГЕЙМ ЭНЕРДЖИ",
     "category": "non-alcoholic",
     "price": 3,
+    "image": "/images/products/4810285016520.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3725,6 +3765,7 @@ export const products: Product[] = [
     "name": "Lipton зелений 1л.",
     "category": "non-alcoholic",
     "price": 4,
+    "image": "/images/products/4600494600470.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -3739,6 +3780,7 @@ export const products: Product[] = [
     "name": "\"ЛЕЙС\" 81г чипсы из натурального картофеля из ПЕЧИ со вкусом  Мусс из Лосося и Авокадо",
     "category": "snacks",
     "price": 4,
+    "image": "/images/products/4690388123574.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -3760,7 +3802,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a57aa1dcf08b861ea6c2e7b",
@@ -3826,13 +3868,14 @@ export const products: Product[] = [
     "slug": "арахис-30гр-соль-рф-c929ccaf",
     "name": "Арахис 30гр соль РФ",
     "category": "snacks",
+    "image": "/images/products/4607120854177.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-24"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "69e3946466a6613d940e0522",
@@ -4071,13 +4114,14 @@ export const products: Product[] = [
     "name": "Арахис жареный соленый фасованные никитин 100г Беларусь Минск ООО никитин",
     "category": "snacks",
     "price": 2,
+    "image": "/images/products/4811564000070.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "69bad46e8a1885060214fd3c",
@@ -4261,6 +4305,7 @@ export const products: Product[] = [
     "name": "БАБКИНЫ СЕМЕЧКИ 300Г БЕЗ СОЛИ",
     "category": "snacks",
     "price": 5,
+    "image": "/images/products/4605362008785.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4276,6 +4321,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "100 г",
     "price": 1,
+    "image": "/images/products/4605362008907.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -4291,6 +4337,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "240 г",
     "price": 5,
+    "image": "/images/products/4605362009492.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -4306,6 +4353,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "80 г",
     "price": 2,
+    "image": "/images/products/4607001417668.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4321,6 +4369,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "140 г",
     "price": 2,
+    "image": "/images/products/4690388123291.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4334,6 +4383,7 @@ export const products: Product[] = [
     "slug": "батончик-бонтайм-b4255402",
     "name": "БАТОНЧИК бонтайм",
     "category": "snacks",
+    "image": "/images/products/4620017451426.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -4348,6 +4398,7 @@ export const products: Product[] = [
     "name": "БАТОНЧИК КОКОС",
     "category": "snacks",
     "price": 3,
+    "image": "/images/products/4680046725066.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4361,6 +4412,7 @@ export const products: Product[] = [
     "slug": "батончик-супер-8160d174",
     "name": "БАТОНЧИК СУПЕР",
     "category": "snacks",
+    "image": "/images/products/4607109843260.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -4390,6 +4442,7 @@ export const products: Product[] = [
     "name": "ВАФЕЛЬНЫЙ БАТОНЧИК  БЭБИ ФОКС МОЛОЧНО ОРЕХ ВАЙТ 18,2 Г",
     "category": "snacks",
     "volume": "18,2 г",
+    "image": "/images/products/4680167311216.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4404,6 +4457,7 @@ export const products: Product[] = [
     "name": "ВАФЕЛЬНЫЙ БАТОНЧИК БЕБИ ФОКС ОРЕХОВАЯ НАЧИНКА ДАРК 18,2Г",
     "category": "snacks",
     "volume": "18,2 г",
+    "image": "/images/products/4680167311230.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -4433,6 +4487,7 @@ export const products: Product[] = [
     "name": "Вермишель \"Роллтон\" с курицей, 60 г.",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4605496007494.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4811,6 +4866,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "50 г",
     "price": 4,
+    "image": "/images/products/4816047700089.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4825,6 +4881,7 @@ export const products: Product[] = [
     "name": "ДЖЕРКИ ПЕРКИ КУРИЦА ЧИЛИ",
     "category": "snacks",
     "price": 4,
+    "image": "/images/products/4816047700096.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -4882,6 +4939,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "45 г",
     "price": 3,
+    "image": "/images/products/4607065000790.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -5099,6 +5157,7 @@ export const products: Product[] = [
     "name": "ЖЕВАТЕЛЬНАЯ КОНФЕТА ФРУТЕЛЛА 41 ГР ВКУС КЛУБН.ЙОГУРТ",
     "category": "snacks",
     "price": 2,
+    "image": "/images/products/46156686.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -5156,6 +5215,7 @@ export const products: Product[] = [
     "name": "ЖЕВАТЕЛЬНАЯ РЕЗИНКА БИГ БАБОЛ",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/46287892.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -5184,6 +5244,7 @@ export const products: Product[] = [
     "name": "ЖЕВАТЕЛЬНАЯ РЕЗИНКА МЕНТОС СО ВКУСОМ СВЕЖАЯ МЯТА",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/46214614.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -5421,7 +5482,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a4f97936a76176eb2582911",
@@ -5451,7 +5512,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6841d1d418d0ce6dc554b697",
@@ -5496,7 +5557,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "67c5a66593f6c837c46fc7da",
@@ -5511,7 +5572,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a329eb8e4be8e19526f7dd3",
@@ -5526,7 +5587,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "693be8f5a37153553a64170e",
@@ -5556,7 +5617,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a4cbf8f319370738468cfe2",
@@ -5586,13 +5647,14 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "67879bf594a205501f731ce4",
     "slug": "карамель-на-палочке-страйк-ассорти-1f731ce4",
     "name": "КАРАМЕЛЬ НА ПАЛОЧКЕ СТРАЙК  АССОРТИ",
     "category": "snacks",
+    "image": "/images/products/4620017452010.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -5635,6 +5697,7 @@ export const products: Product[] = [
     "name": "КИРИЕШКИ КУРИЦА 40г",
     "category": "snacks",
     "volume": "40 г",
+    "image": "/images/products/4607010740085.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -5649,6 +5712,7 @@ export const products: Product[] = [
     "name": "КИРИЕШКИ МАКСИ КРЕВЕТКА 60 ГР",
     "category": "snacks",
     "volume": "60 г",
+    "image": "/images/products/4620017452225.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -5663,6 +5727,7 @@ export const products: Product[] = [
     "name": "кириешки с холодцом и хреном 40г",
     "category": "snacks",
     "volume": "40 г",
+    "image": "/images/products/4607010742027.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -5678,13 +5743,14 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "100 г",
     "price": 1,
+    "image": "/images/products/4690329003125.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66c62f70387ba95e121928c9",
@@ -5692,6 +5758,7 @@ export const products: Product[] = [
     "name": "Кириешки. Сухарики соленые со вкусом красной икры. 40 г",
     "category": "snacks",
     "volume": "40 г",
+    "image": "/images/products/4607010749286.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -5885,7 +5952,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68a84d0c288e093baf2cedac",
@@ -5981,6 +6048,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "23 г",
     "price": 1,
+    "image": "/images/products/4600495584373.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -5996,6 +6064,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "23 г",
     "price": 1,
+    "image": "/images/products/4600495584403.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6024,6 +6093,7 @@ export const products: Product[] = [
     "slug": "кофе-лесной-орех-3f0f26c8",
     "name": "КОФЕ ЛЕСНОЙ ОРЕХ",
     "category": "snacks",
+    "image": "/images/products/4600452023358.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -6068,14 +6138,14 @@ export const products: Product[] = [
     "name": "КРЕВЕТКА СУШЕНАЯ",
     "category": "snacks",
     "volume": "1 кг",
-    "price": 99,
+    "price": 104,
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "656af6a9860e717fb658892e",
@@ -6119,7 +6189,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "689f1857d8468f3aa121074f",
@@ -6128,6 +6198,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "75 г",
     "price": 1,
+    "image": "/images/products/4605496003984.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6143,6 +6214,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "85 г",
     "price": 3,
+    "image": "/images/products/4605496001461.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6216,6 +6288,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "105 г",
     "price": 4,
+    "image": "/images/products/4690388122133.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6231,6 +6304,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "105 г",
     "price": 4,
+    "image": "/images/products/4690388121747.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6282,7 +6356,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "676db1d05630756c9b056c19",
@@ -6349,6 +6423,7 @@ export const products: Product[] = [
     "name": "ЛУКОВЫЕ КОЛЬЦА  ГРИБЫ",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4607032244639.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6378,6 +6453,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "45 г",
     "price": 1,
+    "image": "/images/products/4607032244622.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6407,6 +6483,7 @@ export const products: Product[] = [
     "name": "ЛУКОВЫЕ КОЛЬЦА СО ВКУСОМ КУРИЦЫ ГРИЛЬ45 ГР",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4670161190788.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6465,6 +6542,7 @@ export const products: Product[] = [
     "name": "мармелад бэби фокс 30г",
     "category": "snacks",
     "volume": "30 г",
+    "image": "/images/products/4620017451907.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6480,6 +6558,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "70 г",
     "price": 1,
+    "image": "/images/products/4620017451914.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6509,6 +6588,7 @@ export const products: Product[] = [
     "name": "Мармелад маяма 0.070 малина/черника",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4690329007321.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6551,6 +6631,7 @@ export const products: Product[] = [
     "name": "МЕГА ЧИПСЫ 200ГР КРЕВЕТИ",
     "category": "snacks",
     "price": 5,
+    "image": "/images/products/4810279003680.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6640,13 +6721,14 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "100 г",
     "price": 4,
+    "image": "/images/products/4810279004670.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-23"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "667d79f9a97117269e6a0e90",
@@ -6655,6 +6737,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "200 г",
     "price": 5,
+    "image": "/images/products/4810279001075.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6684,6 +6767,7 @@ export const products: Product[] = [
     "name": "МИНДАЛЬНЫЙ БАТОНЧИК НУТГО",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4620017455806.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6698,6 +6782,7 @@ export const products: Product[] = [
     "name": "МИНДАЛЬНЫЙ БАТОНЧИК NUT GO С КОКОСОМ",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4620017459934.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -6792,7 +6877,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a05c4295031fb4307687cbb",
@@ -6821,7 +6906,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6841785a88493b2fd525bfab",
@@ -6925,7 +7010,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "69cba74cb60097657c40b32a",
@@ -6949,6 +7034,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "150 г",
     "price": 5,
+    "image": "/images/products/4607024895382.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7152,6 +7238,7 @@ export const products: Product[] = [
     "name": "Семена подсолн бабкины жарен.солен.300г",
     "category": "snacks",
     "price": 5,
+    "image": "/images/products/4605362007115.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -7182,6 +7269,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "200 г",
     "price": 3,
+    "image": "/images/products/4811564000032.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -7203,7 +7291,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "692712ab5e84834f427c60fd",
@@ -7313,6 +7401,7 @@ export const products: Product[] = [
     "name": "СТИКС КАЛЬМАР",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4690388117252.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7348,7 +7437,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "69dce94964744d3846152fc5",
@@ -7402,6 +7491,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "100 г",
     "price": 1,
+    "image": "/images/products/4602441022120.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -7562,6 +7652,7 @@ export const products: Product[] = [
     "name": "Сухарики \"кириешки лайт\" пшеничные хрустящие со вкусом ветчины и сыра 33Г",
     "category": "snacks",
     "volume": "33 г",
+    "image": "/images/products/4607120852517.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7591,6 +7682,7 @@ export const products: Product[] = [
     "name": "Сухарики \"кириешки лайт\" пшеничные хрустящие со вкусом сливочного сыра 33Г",
     "category": "snacks",
     "volume": "33 г",
+    "image": "/images/products/4607120852470.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -7620,6 +7712,7 @@ export const products: Product[] = [
     "name": "Сухарики \"кириешки лайт\" пшеничные хрустящие со вкусом сметаны с зеленью 33Г",
     "category": "snacks",
     "volume": "33 г",
+    "image": "/images/products/4607120852555.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -7649,6 +7742,7 @@ export const products: Product[] = [
     "name": "Сухарики \"хрустеам\" \"багет\" со вкусом королевского краба",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4690388013653.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7663,6 +7757,7 @@ export const products: Product[] = [
     "name": "Сухарики \"хрустеам\" со вкусом томата и зелени",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4690388008079.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7691,6 +7786,7 @@ export const products: Product[] = [
     "name": "СУХАРИКИ КИРИЕШКИ ЛАЙТ СЕМГА С СЫРОМ 33Г",
     "category": "snacks",
     "volume": "33 г",
+    "image": "/images/products/4690329016545.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -7750,6 +7846,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "60 г",
     "price": 1,
+    "image": "/images/products/4690388008062.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7777,6 +7874,7 @@ export const products: Product[] = [
     "slug": "сухарики-ржано-пшеничные-соленые-кириешки-со-вкусом-салями-e40b8bf3",
     "name": "Сухарики ржано-пшеничные соленые \"Кириешки\" со вкусом салями",
     "category": "snacks",
+    "image": "/images/products/4607010740191.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7792,6 +7890,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "60 г",
     "price": 1,
+    "image": "/images/products/4607024896860.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7834,13 +7933,14 @@ export const products: Product[] = [
     "name": "Сухарики ржаные со вкусом малосольного огурца с соусом тартар",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4607024896648.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "663674062280d9226b79961e",
@@ -7861,6 +7961,7 @@ export const products: Product[] = [
     "slug": "сухарики-соленые-кириешки-со-вкусом-бекона-45-г-121928ca",
     "name": "Сухарики соленые \"Кириешки\" со вкусом бекона. 45 г.",
     "category": "snacks",
+    "image": "/images/products/4607010740016.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -7876,13 +7977,14 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "100 г",
     "price": 1,
+    "image": "/images/products/4690329003149.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-24"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "663674062280d9226b799602",
@@ -7897,7 +7999,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-24"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "663674062280d9226b79961c",
@@ -7920,6 +8022,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "80 г",
     "price": 1,
+    "image": "/images/products/4760148001623.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8150,7 +8253,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a22b36a0ac8c600a10b5439",
@@ -8232,6 +8335,7 @@ export const products: Product[] = [
     "name": "ЧИПСОНЫ СО  ВКУСОМ ШАШЛЫКА 4ОГР",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4607010740733.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -8247,6 +8351,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "40 г",
     "price": 1,
+    "image": "/images/products/4607120858977.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8390,6 +8495,7 @@ export const products: Product[] = [
     "name": "Чипсы картофельные Mega Chips сметана/лук пласт (0.1 кг)",
     "category": "snacks",
     "price": 3,
+    "image": "/images/products/4810279000412.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8404,6 +8510,7 @@ export const products: Product[] = [
     "name": "ЧИПСЫ ЛЕЙС 105 Г РИФ КОЛБ БРАТВУР ПО НЕМ",
     "category": "snacks",
     "price": 4,
+    "image": "/images/products/4690388122133.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -8425,7 +8532,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "692ac62b939dcc06ec58e51b",
@@ -8461,6 +8568,7 @@ export const products: Product[] = [
     "name": "Чипсы мегачипсы 0.050 сметана/лук",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/4810279000399.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8475,6 +8583,7 @@ export const products: Product[] = [
     "name": "Чипсы мегачипсы 0.100 грибы со сметаной",
     "category": "snacks",
     "price": 3,
+    "image": "/images/products/4810279001624.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8489,6 +8598,7 @@ export const products: Product[] = [
     "name": "Чипсы мегачипсы 0.100 холодец с хреном",
     "category": "snacks",
     "price": 3,
+    "image": "/images/products/4810279000696.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8504,6 +8614,7 @@ export const products: Product[] = [
     "category": "snacks",
     "volume": "100 г",
     "price": 6,
+    "image": "/images/products/4607048836705.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8547,6 +8658,7 @@ export const products: Product[] = [
     "name": "Чипсы премьер сметана/лук 0.070",
     "category": "snacks",
     "price": 2,
+    "image": "/images/products/4810279000559.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8561,6 +8673,7 @@ export const products: Product[] = [
     "name": "Чипсы премьер сметана/сыр 0.070",
     "category": "snacks",
     "price": 2,
+    "image": "/images/products/4810279000566.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": true,
@@ -8694,6 +8807,7 @@ export const products: Product[] = [
     "name": "ЧУПА ЧУПС XXL С ЖЕВ.РЕЗИНКОЙ",
     "category": "snacks",
     "price": 1,
+    "image": "/images/products/46234964.webp",
     "currency": "BYN",
     "storeAvailability": {
       "center": false,
@@ -8831,7 +8945,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6799f795b1dfbf407c70535e",
@@ -8846,7 +8960,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "64ae635a29958e0f8159958d",
@@ -8861,7 +8975,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "687a48c810902a67c35c2ca0",
@@ -9091,7 +9205,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a477df65bba1346f179aeac",
@@ -9544,7 +9658,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "687f789989e1aa284c732943",
@@ -9558,7 +9672,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680d121635a2bd4f4e11b4cd",
@@ -9571,7 +9685,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "64b062a5beaf6152830dc9cd",
@@ -9585,7 +9699,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66770343acdead150d758674",
@@ -9598,7 +9712,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680d11c66032aa457e6922a8",
@@ -9611,7 +9725,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68531c237b6879558526e20c",
@@ -10049,7 +10163,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-21"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "672a03cbd738f4208e4612f9",
@@ -10781,7 +10895,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6639129fd77d5a7b93579b0f",
@@ -11066,7 +11180,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6888d4a30a32d6500e35a9a4",
@@ -11317,7 +11431,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66ed7388582ffa7b13679bd5",
@@ -11497,7 +11611,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a5f562fdd83fe1aa953b35d",
@@ -11627,7 +11741,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a5228b1ebfc50066c485c80",
@@ -11730,7 +11844,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a076e5c0f4b6c6d66612eab",
@@ -11774,7 +11888,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66e2204391d32b77583a814c",
@@ -12352,7 +12466,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "675e04e9081c74408110ab23",
@@ -12858,7 +12972,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68c841d0a1694e7b6929d675",
@@ -13162,7 +13276,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680d148fee05a9356578587d",
@@ -13175,7 +13289,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6677027cb5e43a35a3134a11",
@@ -13188,7 +13302,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "64b7c4944f0c52065859b0af",
@@ -13201,7 +13315,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68812703c7ced754a810bcbe",
@@ -13357,7 +13471,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "66f2f3bc2333463dc97e1463",
@@ -13587,7 +13701,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "680647d9d94f70723c6d185e",
@@ -14213,7 +14327,7 @@ export const products: Product[] = [
       "east": false,
       "south": true
     },
-    "updatedAt": "2026-07-21"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "68c1d6651bde10124a583f59",
@@ -14337,7 +14451,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6813f1b522dd943e2c2970d4",
@@ -14527,7 +14641,7 @@ export const products: Product[] = [
       "east": false,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a3fbf33409c3463fe7f5591",
@@ -14615,7 +14729,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6813cb870c68e63022546c01",
@@ -14645,7 +14759,7 @@ export const products: Product[] = [
       "east": true,
       "south": false
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "685e7ec3b8572005cd316540",
@@ -14660,7 +14774,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a1f38376a12d65ae476e65c",
@@ -14877,7 +14991,7 @@ export const products: Product[] = [
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "69048f5cebdd1745cc33532e",
@@ -16001,11 +16115,11 @@ export const products: Product[] = [
     "price": 53,
     "currency": "BYN",
     "storeAvailability": {
-      "center": false,
+      "center": true,
       "east": true,
       "south": true
     },
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-26"
   },
   {
     "id": "6a4795edcabd0b61dc32aa78",

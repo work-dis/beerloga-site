@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CalendarClock, Phone } from "lucide-react";
 import type { Product } from "@/src/data/types";
 import { stores } from "@/src/data/stores";
@@ -22,12 +23,25 @@ export function ProductCard({
   return (
     <article className="product-card">
       <div className={`product-visual product-visual--${product.category}`}>
-        <span className="product-visual__package" aria-hidden="true">
-          {product.name.slice(0, 1)}
-        </span>
-        <span className="sr-only">
-          Нейтральное изображение упаковки товара «{product.name}»
-        </span>
+        {product.image ? (
+          <Image
+            className="product-visual__image"
+            src={product.image}
+            alt={`Упаковка товара «${product.name}»`}
+            fill
+            unoptimized
+            sizes="(max-width: 767px) 35vw, 180px"
+          />
+        ) : (
+          <>
+            <span className="product-visual__package" aria-hidden="true">
+              {product.name.slice(0, 1)}
+            </span>
+            <span className="sr-only">
+              Нейтральное изображение упаковки товара «{product.name}»
+            </span>
+          </>
+        )}
       </div>
       <div className="product-card__body">
         <p className="eyebrow">{categoryLabels[product.category]}</p>
@@ -99,10 +113,19 @@ export function ProductGrid({
   storeId?: string;
 }) {
   return (
-    <div className="product-grid">
-      {products.map((product) => (
-        <ProductCard key={product.id} product={product} storeId={storeId} />
-      ))}
-    </div>
+    <>
+      <div className="product-grid">
+        {products.map((product) => (
+          <ProductCard key={product.id} product={product} storeId={storeId} />
+        ))}
+      </div>
+      <p className="catalog-attribution">
+        Фотографии упаковок:{" "}
+        <a href="https://world.openfoodfacts.org/" target="_blank" rel="noreferrer">
+          Open Food Facts
+        </a>
+        , лицензия CC BY-SA. Изображения сопоставлены по штрихкоду.
+      </p>
+    </>
   );
 }
