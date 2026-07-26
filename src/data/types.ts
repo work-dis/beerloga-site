@@ -28,6 +28,8 @@ export type Store = {
   address: string;
   phone: string;
   openingHours: string;
+  opens: string;
+  closes: string;
   coordinates?: {
     latitude: number;
     longitude: number;

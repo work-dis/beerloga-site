@@ -4,7 +4,7 @@ import { createMetadata } from "@/src/lib/metadata";
 
 export const metadata = createMetadata(
   "Контакты",
-  "Демонстрационные контакты сети физических магазинов БИРЛОГА в Бресте.",
+  "Телефоны и адреса физических магазинов БИРЛОГА в Бресте.",
   "/contacts",
 );
 
@@ -14,19 +14,24 @@ export default function ContactsPage() {
       <PageIntro
         eyebrow="Контакты"
         title="Связаться с БИРЛОГОЙ"
-        description="Контакты ниже демонстрационные и должны быть заменены перед публикацией."
+        description="Позвоните в магазин или выберите адрес для построения маршрута."
       />
       <section className="section contact-grid">
-        <a href="tel:+375000000000">
+        <a href="tel:+375295034751">
           <Phone aria-hidden="true" />
-          <span>Телефон</span>
-          <strong>+375 00 000-00-00</strong>
+          <span>Жукова и Гродненская</span>
+          <strong>+375 29 503-47-51</strong>
         </a>
-        <a href="mailto:info@example.by">
+        <a href="tel:+375298228991">
+          <Phone aria-hidden="true" />
+          <span>Екельчика</span>
+          <strong>+375 29 822-89-91</strong>
+        </a>
+        <article>
           <Mail aria-hidden="true" />
           <span>Электронная почта</span>
-          <strong>info@example.by</strong>
-        </a>
+          <strong>Публичный email не опубликован</strong>
+        </article>
         <a href="/stores">
           <MapPin aria-hidden="true" />
           <span>Адреса</span>

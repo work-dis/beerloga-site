@@ -915,6 +915,7 @@ input::placeholder {
 
 .prose-grid article,
 .contact-grid a,
+.contact-grid article,
 .legal-prose {
   padding: 24px;
   border: 1px solid var(--border);
@@ -927,7 +928,8 @@ input::placeholder {
   color: var(--muted);
 }
 
-.contact-grid a {
+.contact-grid a,
+.contact-grid article {
   display: grid;
   min-height: 170px;
   align-content: center;

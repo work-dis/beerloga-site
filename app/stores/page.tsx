@@ -32,8 +32,8 @@ const structuredData = {
         "Saturday",
         "Sunday",
       ],
-      opens: store.openingHours.includes("09:00") ? "09:00" : "10:00",
-      closes: "22:00",
+      opens: store.opens,
+      closes: store.closes,
     },
   })),
 };
@@ -47,8 +47,8 @@ export default function StoresPage() {
         description="Выберите удобный адрес, уточните режим работы и постройте маршрут."
       />
       <p className="demo-banner">
-        Адреса и телефоны на этой версии сайта демонстрационные. Перед поездкой
-        используйте только подтверждённые контакты.
+        Контакты сверены по открытым справочникам 26 июля 2026 года. В праздники
+        режим работы может отличаться — уточняйте его по телефону.
       </p>
       <section className="section section--catalog" aria-labelledby="store-list-title">
         <h2 id="store-list-title" className="sr-only">Список магазинов</h2>

@@ -61,9 +61,9 @@ export function Header() {
           ))}
         </nav>
         <div className="header-actions">
-          <a className="phone-link" href="tel:+375000000000">
+          <a className="phone-link" href="tel:+375295034751">
             <Phone aria-hidden="true" />
-            <span>+375 00 000-00-00</span>
+            <span>+375 29 503-47-51</span>
           </a>
           <Link className="button button--accent button--compact" href="/stores">
             <MapPin aria-hidden="true" />
@@ -88,7 +88,7 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <a href="tel:+375000000000" onClick={closeMenu}>
+          <a href="tel:+375295034751" onClick={closeMenu}>
             Позвонить
           </a>
         </div>
@@ -100,7 +100,7 @@ export function Header() {
 export function MobileActionBar() {
   return (
     <nav className="mobile-action-bar" aria-label="Быстрые действия">
-      <a href="tel:+375000000000">
+      <a href="tel:+375295034751">
         <Phone aria-hidden="true" />
         <span>Позвонить</span>
       </a>
@@ -136,9 +136,9 @@ export function Footer() {
           <Link href="/privacy">Политика конфиденциальности</Link>
         </nav>
         <div className="footer-contact">
-          <a href="tel:+375000000000">+375 00 000-00-00</a>
-          <a href="mailto:info@example.by">info@example.by</a>
-          <p>Контакты демонстрационные</p>
+          <a href="tel:+375295034751">+375 29 503-47-51</a>
+          <a href="tel:+375298228991">+375 29 822-89-91</a>
+          <p>Email публично не указан</p>
         </div>
       </div>
     </footer>
